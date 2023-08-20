@@ -1022,7 +1022,7 @@
     (property "Value" "0.5A" (at 35.56 24.13 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Fuse:Fuse_Bourns_MF-RG300" (at 35.56 28.448 90)
+    (property "Footprint" "ProjectLibrary:Fuse" (at 35.56 28.448 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 35.56 26.67 0)
