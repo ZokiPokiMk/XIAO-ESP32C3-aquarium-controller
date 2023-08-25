@@ -510,6 +510,10 @@
       {
         "netclass": "Pwr",
         "pattern": "/Mosfet*"
+      },
+      {
+        "netclass": "Pwr",
+        "pattern": "/rel1|/rel2|/rel3"
       }
     ]
   },
