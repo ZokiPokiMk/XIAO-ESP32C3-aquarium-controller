@@ -450,7 +450,7 @@
     (property "Reference" "R8" (at 76.2 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4K7" (at 76.2 69.85 0)
+    (property "Value" "10K" (at 76.2 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 73.152 67.31 90)
