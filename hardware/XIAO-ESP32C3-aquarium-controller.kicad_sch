@@ -1830,6 +1830,45 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3V") (at 45.72 121.92 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 040c3a0f-d096-4766-804f-33708fac1a67)
+    (property "Reference" "#PWR029" (at 45.72 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 45.72 118.11 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 45.72 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 45.72 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7a912478-2240-45ab-acd1-cab0a5a40e07))
+    (instances
+      (project "AquariumController"
+        (path "/75069d71-4fd1-4b49-820b-d8e60608591a/cae2cbae-b73f-4926-bf8f-e52abe478c81"
+          (reference "#PWR029") (unit 1)
+        )
+        (path "/75069d71-4fd1-4b49-820b-d8e60608591a"
+          (reference "#PWR031") (unit 1)
+        )
+        (path "/75069d71-4fd1-4b49-820b-d8e60608591a/5fd9d187-6c53-4498-b6f0-99546b3ca792"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "XIAO-ESP32C3-aquarium-controller"
+        (path "/e16639bd-7ef7-40a4-9337-f1b4c79f775b/6cb334e1-33ef-41c6-b7ff-62ff02100eaa"
+          (reference "#PWR029") (unit 1)
+        )
+        (path "/e16639bd-7ef7-40a4-9337-f1b4c79f775b"
+          (reference "#PWR034") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+5V") (at 148.59 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 044493f9-3806-447d-98fd-0df8ab20a35b)
@@ -2574,42 +2613,6 @@
       (project "XIAO-ESP32C3-aquarium-controller"
         (path "/e16639bd-7ef7-40a4-9337-f1b4c79f775b"
           (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 45.72 121.92 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a7160f3d-5ba5-47b0-aaf9-6a8dd487505a)
-    (property "Reference" "#PWR0102" (at 45.72 125.73 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 45.72 116.84 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 45.72 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 45.72 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0e68fcfe-d7a9-4bee-862f-633eb6405d31))
-    (instances
-      (project "AquariumController"
-        (path "/75069d71-4fd1-4b49-820b-d8e60608591a"
-          (reference "#PWR0102") (unit 1)
-        )
-        (path "/75069d71-4fd1-4b49-820b-d8e60608591a/cae2cbae-b73f-4926-bf8f-e52abe478c81"
-          (reference "#PWR016") (unit 1)
-        )
-      )
-      (project "XIAO-ESP32C3-aquarium-controller"
-        (path "/e16639bd-7ef7-40a4-9337-f1b4c79f775b/bee5e875-31e5-4be6-8420-aaa58bd7d71a"
-          (reference "#PWR01") (unit 1)
-        )
-        (path "/e16639bd-7ef7-40a4-9337-f1b4c79f775b"
-          (reference "#PWR034") (unit 1)
         )
       )
     )
