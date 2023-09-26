@@ -417,11 +417,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICI+IiwgIkZvbnRDb21ib0JveCI6ICJtcGx1cy0xbW4tbWVkaXVtIiwgIkhlaWdodEN0cmwiOiAiMC45IiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIkdORCIsICJQYWRkaW5nQm90dG9tQ3RybCI6ICI1IiwgIlBhZGRpbmdMZWZ0Q3RybCI6ICI1IiwgIlBhZGRpbmdSaWdodEN0cmwiOiAiNSIsICJQYWRkaW5nVG9wQ3RybCI6ICI1IiwgIldpZHRoQ3RybCI6ICIyLjgifQ==")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-65102A64" (at 0 -3.881438) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
+        (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 94ac7a04-ac8d-4298-b449-eebf77b2dd4e)
     )
     (fp_text value "G***" (at 0 3.881438) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
+        (effects (font (size 0 0) (thickness 0.15)))
       (tstamp e9949eb8-fc87-45bc-a129-19cdadd3262b)
     )
     (fp_poly
@@ -2100,9 +2100,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 79ea541a-e0da-4520-b098-bf18a960ec00))
     (fp_line (start 1.6 0.8) (end -1.6 0.8)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp c4a5a968-3ddf-4fcd-8e39-fc5e665e2bab))
-    (pad "1" smd roundrect (at -1.475 0) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "1" smd roundrect (at -1.475 0) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 1 "+5V") (pintype "passive") (tstamp 400038a0-3d8c-4a73-8dd6-b956b2c4974c))
-    (pad "2" smd roundrect (at 1.475 0) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "2" smd roundrect (at 1.475 0) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2173913043)
       (net 2 "GND") (pintype "passive") (tstamp 70e392a1-8681-41bf-88c2-bafbe669237f))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -3208,10 +3208,11 @@
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (property "Sheetfile" "AC-DC.kicad_sch")
     (property "Sheetname" "AC-DC")
+    (property "exclude_from_bom" "")
     (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/bee5e875-31e5-4be6-8420-aaa58bd7d71a/10379dd0-eaa6-44da-b2e8-658c86f68ee3")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "J6" (at -0.05 5.175) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dffedf37-34f8-40b3-8504-b0f2a305fcd2)
@@ -4556,11 +4557,11 @@
     (tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiWyIsICJDYXBSaWdodENob2ljZSI6ICI+IiwgIkZvbnRDb21ib0JveCI6ICJtcGx1cy0xbW4tbWVkaXVtIiwgIkhlaWdodEN0cmwiOiAiMC45IiwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJNdWx0aUxpbmVUZXh0IjogIjVWIiwgIlBhZGRpbmdCb3R0b21DdHJsIjogIjUiLCAiUGFkZGluZ0xlZnRDdHJsIjogIjUiLCAiUGFkZGluZ1JpZ2h0Q3RybCI6ICI1IiwgIlBhZGRpbmdUb3BDdHJsIjogIjUiLCAiV2lkdGhDdHJsIjogIjIuOCJ9")
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "kibuzzard-65102A38" (at 0 -3.874294) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
+        (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 64cbf5ac-3d8c-4281-85bf-3065d0f6d456)
     )
     (fp_text value "G***" (at 0 3.874294) (layer "F.SilkS") hide
-        (effects (font (size 0 0)))
+        (effects (font (size 0 0) (thickness 0.15)))
       (tstamp 8323ef29-9820-432f-8521-7750c6872342)
     )
     (fp_poly
