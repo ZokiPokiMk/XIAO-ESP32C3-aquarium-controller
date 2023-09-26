@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Temperature Sensors")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x05" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 7.62 0)
@@ -293,6 +297,26 @@
   (wire (pts (xy 86.36 44.45) (xy 81.28 44.45))
     (stroke (width 0) (type default))
     (uuid ff263165-8f30-45ec-827c-7f502397d0a2)
+  )
+
+  (rectangle (start 90.17 58.42) (end 115.57 66.04)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 0dd23872-0d22-4d6f-9b2f-6c211da49685)
+  )
+  (rectangle (start 90.17 44.45) (end 115.57 55.88)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 7622468a-627b-4eeb-8b00-c77c58100c8d)
+  )
+
+  (text "NTC 10K" (at 99.06 63.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 03fba00f-d6ff-4e4c-8fd1-85f158cf8f7b)
+  )
+  (text "ds18b20" (at 99.06 49.53 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b47219b3-ce76-4ade-9247-e2401fc55c48)
   )
 
   (hierarchical_label "Data" (shape input) (at 57.15 48.26 180) (fields_autoplaced)

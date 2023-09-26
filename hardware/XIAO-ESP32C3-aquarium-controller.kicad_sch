@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (title "XIAO ESP32C3 Aquarium Controller")
+  )
+
   (lib_symbols
     (symbol "74xx:74HC245" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -7.62 16.51 0)
@@ -1622,6 +1626,17 @@
   (wire (pts (xy 222.25 129.54) (xy 222.25 127))
     (stroke (width 0) (type default))
     (uuid fec4edfd-4cc9-4762-8c02-1a4411a842e6)
+  )
+
+  (rectangle (start 199.39 43.18) (end 247.65 91.44)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid c528858a-83c8-4c96-a8a5-4adb22eaf62a)
+  )
+
+  (text "High Voltage" (at 229.87 49.53 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a2708543-9791-4a33-9aa1-74daf46b644c)
   )
 
   (label "D7" (at 45.72 127 0) (fields_autoplaced)
