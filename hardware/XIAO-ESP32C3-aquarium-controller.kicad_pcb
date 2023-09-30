@@ -5631,7 +5631,7 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp f90c62d1-11ae-4906-baa9-748959f5609d))
   (gr_arc (start 76.700002 87.599999) (mid 76.465687 88.165684) (end 75.900002 88.399999)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp fea87397-c03a-4298-9475-17d89d6e30ca))
-  (gr_text "Aquarium Controller V1.0\n\nDesigned by Vanja Andreev" (at 50.6 33.5) (layer "F.SilkS") (tstamp 0d369efb-22a4-48bd-bc73-baf11dd61708)
+  (gr_text "XIAO-ESP32C3 Aquarium Controller V1.0\n\nDesigned by Vanja Andreev" (at 50.6 33.5) (layer "F.SilkS") (tstamp 0d369efb-22a4-48bd-bc73-baf11dd61708)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (gr_text "JLCJLCJLCJLC" (at 72.1 54) (layer "F.SilkS") (tstamp caf9f565-80d4-47e3-ba9a-b36b06888886)
