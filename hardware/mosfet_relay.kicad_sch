@@ -793,7 +793,7 @@
     (property "Datasheet" "~" (at 43.18 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB Part #" "C96123" (at 43.18 30.48 0)
+    (property "JLCPCB Part #" "C45783" (at 43.18 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a6010b04-db11-4958-aab7-be23ccb7a8c3))
